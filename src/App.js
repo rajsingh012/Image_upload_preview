@@ -30,7 +30,7 @@ function App() {
             <div className="image_uplaod--imgwrap">
               {imageUrls.map((imgSrc, key) =>
                 <div className="image_uplaod-flex">
-                  <img className="image_uplaod--images" key={key} src={imgSrc} />
+                  <img className="image_uplaod--images" key={key} src={imgSrc} alt="Images" />
                 </div>
               )}
             </div>
